@@ -3,11 +3,9 @@ let popupmodel = document.getElementById('popupmodel')
 let closebtn = document.getElementById('closebtn')
 
 popbtn.addEventListener('click',function(){
-        popupmodel.style.display = "block";
+        popupmodel.style.display = "block"
 
 })
-
  closebtn.addEventListener("click", function() {
-            popupmodel.style.display = "none";
+            popupmodel.style.display = "none"
         });
-s

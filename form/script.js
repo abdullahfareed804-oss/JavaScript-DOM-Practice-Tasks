@@ -11,19 +11,19 @@ form.addEventListener("submit", function(event) {
  event.preventDefault();
 
 if (name.value === "") {
-     message.textContent = "please enter your name";
+     message.textContent = "please enter your name"
       }
 
  else if (email.value === "") {
-        message.textContent = "enter your email";
+        message.textContent = "enter your email"
     }
 
     else if (password.value === "") {
-        message.textContent = " enter your password";
+        message.textContent = " enter your password"
     }
     else {
-        message.textContent = "form submitted successfully";
+        message.textContent = "form submitted successfully"
   }
 
-});
+})
 
